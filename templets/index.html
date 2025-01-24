@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Queue Manager</title>
+</head>
+<body>
+    <h1>Queue Manager: Job Scheduling Simulation</h1>
+    <div id="job-form">
+        <input type="text" id="job-name" placeholder="Enter Job Name">
+        <button id="add-job">Add Job</button>
+    </div>
+    <div id="job-queue">
+        <h2>Job Queue</h2>
+        <ul id="queue-list"></ul>
+    </div>
+    <button id="process-job">Process Next Job</button>
+    <div id="current-job">
+        <h2>Currently Processing</h2>
+        <p id="current-job-name">None</p>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

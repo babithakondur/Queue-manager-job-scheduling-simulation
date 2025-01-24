@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #6200ea;
+    color: white;
+    padding: 1rem;
+    margin: 0;
+}
+
+#job-form {
+    margin: 2rem;
+}
+
+#job-form input {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#job-form button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#job-queue {
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    width: 50%;
+    background-color: #fff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 0.5rem;
+    background-color: #f1f1f1;
+    margin: 0.5rem 0;
+}
+
+#process-job {
+    padding: 0.7rem 2rem;
+    background-color: #03a9f4;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#current-job {
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 50%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
